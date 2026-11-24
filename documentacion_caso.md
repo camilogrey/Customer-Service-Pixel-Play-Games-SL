@@ -15,7 +15,7 @@ Se estructuró la jerarquía organizativa de la empresa creando las unidades de 
   * **Madrid** (Unidad de negocio dependiente de `PixelPlay`).
   * **Valencia** (Unidad de negocio dependiente de `PixelPlay`).
 
-![Unidades de negocio](img/)
+![Unidades de negocio](img/1.%20Unidades%20de%20negocio.png)
 
 ---
 
@@ -31,7 +31,7 @@ Se crearon los equipos de trabajo propietarios y de acceso para gestionar la asi
   * `Soporte técnico` (Asignado a la unidad de negocio *PixelPlay*).
   * `Supervisión` (Asignado a la unidad de negocio *PixelPlay*).
 
-![Creación de Equipos](2.%20Creacion%20de%20Equipos.png)
+![Creación de Equipos](img/2.%20Creacion%20de%20Equipos.png)
 
 ---
 
@@ -40,17 +40,17 @@ Se crearon los equipos de trabajo propietarios y de acceso para gestionar la asi
 #### Paso 3.1: Selección del Rol Base
 Para establecer los permisos iniciales, se tomó como base el rol predeterminado de Dynamics 365 **Customer Service Representative**.
 
-![Selección de rol base](3.%20Creacion%20Pixelplay%20rol%20a%20partir%20CS%20Representative.png)
+![Selección de rol base](img/3.%20Creacion%20Pixelplay%20rol%20a%20partir%20CS%20Representative.png)
 
 #### Paso 3.2: Copia del Rol de Seguridad
 Se realizó una copia del rol seleccionado asignándole el nombre **Agente PixelPlay**.
 
-![Copia del rol Agente PixelPlay](3.1.%20CReacion%20del%20Pixel%20Play%20.png)
+![Copia del rol Agente PixelPlay](img/3.1.%20CReacion%20del%20Pixel%20Play%20.png)
 
 #### Paso 3.3: Verificación de la Creación del Rol
 Se comprobó que el nuevo rol no administrado **Agente PixelPlay** figura correctamente guardado dentro del listado de *Security roles* del entorno.
 
-![Rol final creado](3.2%20creado%20el%20rol%20final.png)
+![Rol final creado](img/3.2%20creado%20el%20rol%20final.png)
 
 #### Paso 3.4: Ajuste de Privilegios en la Tabla Caso (*Case*)
 Se modificaron los privilegios del rol **Agente PixelPlay** para la entidad de Servicio `Case` (*Caso / Incidencia*):
@@ -62,7 +62,7 @@ Se modificaron los privilegios del rol **Agente PixelPlay** para la entidad de S
 #### Paso 3.5: Confirmación de Configuración del Rol
 Se guardaron y publicaron las modificaciones del rol de seguridad, dejando establecidos los privilegios requeridos para los agentes.
 
-![Rol de seguridad finalizado](3.4%20rol%20de%20seguridad%20pixelplay%20finalizado%20.png)
+![Rol de seguridad finalizado](img/3.4%20rol%20de%20seguridad%20pixelplay%20finalizado%20.png)
 
 ---
 
@@ -78,7 +78,7 @@ Se creó la solución contenedor en Power Apps para empaquetar todas las persona
   * **Publisher:** `pixelplaysolution (pixelplaysolution)`
   * **Version:** `1.0.0.0`
 
-![Creación de solución](4.%20Creacion%20de%20solucion.png)
+![Creación de solución](img/4.%20Creacion%20de%20solucion.png)
 
 ---
 
@@ -90,7 +90,7 @@ Dentro de la tabla **Contacts**, se creó la columna de tipo **Choice** (Opción
 2. **Plata** (Valor: `894.310.001`)
 3. **Leyenda** (Valor: `894.310.002`)
 
-![Columna Nivel PixelPoints en Contactos](5.1.%20Tabla%20Contacto%20Columna%20Nivel%20PixelPoints.png)
+![Columna Nivel PixelPoints en Contactos](img/5.1.%20Tabla%20Contacto%20Columna%20Nivel%20PixelPoints.png)
 
 ---
 
